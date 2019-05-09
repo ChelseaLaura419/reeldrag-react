@@ -1,0 +1,143 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.homeHeader {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.about {
+    margin-top: 15px;
+    color: white;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.intro {
+    margin: 0;
+    width: 100%!important; 
+    padding: 10px;
+    background-image: url(../images/aboutBackground.png);
+}
+
+.homeCopy {
+    max-width: 1440px;
+    color: white;
+    padding: 10px;
+
+}
+
+.theCrew {
+    margin-top: 15px;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bolder;
+    color: white;
+}
+
+.crew {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-image: url(../images/crewBackground.png);
+}
+
+h5 {
+    color: white;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.bio {
+    margin-top:50px;
+    margin-bottom:50px; 
+    color: white!important;
+}
+
+.profile {
+    max-width: 350px;
+    padding-top: 20px;
+}
+
+.map {
+    max-width: 250px;
+    padding-top: 20px;
+}
+
+.btn {
+    border-radius: 0px!important;
+}
+
+.charter {
+    margin: 0;
+    width: 100%!important; 
+    padding: 10px;
+    background-image: url(../images/mapBackground.png);
+}
+
+.homeCard {
+    background: none !important;
+    border: none !important;
+}
+
+.card-text {
+    color: white;
+}
+
+footer {
+    height: 50px;
+}
+
+a {
+    color: #5BC0DE;
+}
+
+.bottom {
+    padding: 10px;
+}
+
+.chartForm {
+    background-color: #DDDDDD;
+    padding: 10px;
+}
+
+.blue {
+    color: #5BC0DE;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+#submit {
+    margin-top: 10px;
+}
+
+.white {
+    color: white;
+}
+
+.gray {
+    color: gray; 
+}
+
+.tripBlock {
+    margin-top: 10px; 
+}
+
+.card-img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.profileImg {
+    object-fit: fill;
+}
+
+.instaPhoto:hover { 
+    background-color: black;
+    opacity: 0.5;
+    transform: scale(1.125);
+  }

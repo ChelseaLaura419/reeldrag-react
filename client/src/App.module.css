@@ -1,0 +1,29 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  background: #343a40!important;
+  color:#9a9da0;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+li {
+  padding: 15px;
+  list-style: none;
+}
+a {
+  color: #9a9da0;
+  text-decoration: none;
+}
+a:hover {
+  color: #5BC0DE;
+  text-decoration: none;
+}

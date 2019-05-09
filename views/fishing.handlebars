@@ -1,0 +1,70 @@
+<header>
+    <img src="images/buddyHeader.png" class="homeHeader">
+</header>
+<div class="chartForm">
+    <div class="container">
+        <h4 class="blue">Post A Fishing Trip</h4>
+        <form class="create-form" method="POST" action="/api/trip">
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col">
+                        <label for="inputLocation">Trip Location</label>
+                        <input id="tripLocation" class="form-control" placeholder="Trip Location" type="text"
+                            name="tripLocation">
+                    </div>
+                    <div class="col">
+                        <label for="inputDate">Requested Trip Date</label>
+                        <input id="tripDate" class="form-control" placeholder="Trip Date" type="text" name="tripDate">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <label for="inputDescript">Description</label>
+                        <input id="description" class="form-control" placeholder="Description" type="text"
+                            name="description">
+                    </div>
+                    <div class="col">
+                        <label for="inputBoat">Boat</label>
+                        <input id="boat" class="form-control" placeholder="Boat" type="text" name="boat">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <label for="inputPeople">Number Of People</label>
+                        <input id="numPeople" class="form-control" placeholder="Number Of People" type="text"
+                            name="numPeople">
+                    </div>
+                    <div class="col">
+                        <label for="inputCost">Cost</label>
+                        <input id="tripCost" class="form-control" placeholder="Cost" type="text" name="tripCost">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="inputImage">Image</label>
+                    <input id="image" class="form-control" placeholder="Image URL" type="text" name="image">
+                </div>
+                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="intro">
+    <div class="container">
+        <p class="homeCopy">At Reel Drag Fishing co. we believe that time on the water is important. The more time
+            you spend out on the water the most fishing you catch and the more spots you find for a successful
+            fishing trip. Below is list of people looking to get out on the water!</p>
+    </div>
+</div>
+
+<div class="container">
+    <br>
+    <h4 class="blue">Find A Fishing Trip</h4>
+</div>
+    <div>
+        {{#each trips}}
+            {{> trips/trip-block}}
+        {{/each}}
+    </div>
+
+
+<script src="js/index.js"></script>
